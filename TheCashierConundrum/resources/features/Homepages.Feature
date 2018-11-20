@@ -8,6 +8,7 @@ Feature: HomePage
 
   
   Scenario: Verify user can navigate to CodeAcademy.com
-    Given User clicks chose your location button
-    When User updates location by city name
-    Then Location is updated
+    Given User types Code Academy into the search bar
+    And User presses Enter
+    When User selects the top search result
+    Then User is redirected to CodeAcademy.com

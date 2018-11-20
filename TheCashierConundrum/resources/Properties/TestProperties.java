@@ -1,11 +1,11 @@
-package com.ticketmaster.qa.components;
+package resources.Properties;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
-import static com.ticketmaster.qa.config.PropertyKeys.BASE_URL;
-import static com.ticketmaster.qa.config.PropertyKeys.SEARCH_RESULTS_URL;
+//import static com.ticketmaster.qa.config.PropertyKeys.BASE_URL;
+//import static com.ticketmaster.qa.config.PropertyKeys.SEARCH_RESULTS_URL;
 
 @Component
 public class TestProperties {
